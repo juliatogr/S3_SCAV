@@ -41,7 +41,7 @@ I also included a script used for creating all collages. To execute it, `python3
 
 I got the next sizes on the files:
 
-| resoution | Original | H265 | VP8 | VP9 | AV1 |
+| resolution | Original | H265 | VP8 | VP9 | AV1 |
 | --- | --- | --- | --- | --- | --- |
 | 160x120| 330 KB | 274 KB | 744 KB | 1.181 KB | 218 KB |
 | 360x240 | 516 KB | 346 KB | 1.536 KB | 1.197 KB | 320 KB |
@@ -50,7 +50,7 @@ I got the next sizes on the files:
 
 We can notice how the H265 and AV1 codecs are the unique ones which really decrease the size of the original size. 
 
-Watching the different exported collages, we can see more differences between codecs for the smallest frame size of 160x120 pixels. 
+Watching the different exported collages, we can see more differences between codecs for the smallest resolution of 160x120 pixels. 
 
 ## Util links
 
