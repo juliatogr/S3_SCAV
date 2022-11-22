@@ -23,7 +23,7 @@ All videos from exercise 1 are located inside the `videos` folder, organised in 
 
 I created a GUI where you can write the path to the video (Ex. ./videos/originals/bbb_480x480.mp4) and choose the format you want to convert it selecting the corresponding button. The output file will be located at the main project folder, with the name "output.{extension}". The GUII looks like this:
 <p align="center">
-<img src=https://user-images.githubusercontent.com/72571435/203330869-a35851ee-488f-4921-842f-cd7b379f0b83.png width="120" height="120" />
+<img src=https://user-images.githubusercontent.com/72571435/203330869-a35851ee-488f-4921-842f-cd7b379f0b83.png />
 </p>
 
 Finally, if you want to quit the application, you can just press the "Quit" button.
