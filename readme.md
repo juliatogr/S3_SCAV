@@ -41,7 +41,7 @@ I also included a script used for creating all collages. To execute it, `python3
 
 I got the next sizes on the files:
 
-| pixels | Original | H265 | VP8 | VP9 | AV1 |
+| resoution | Original | H265 | VP8 | VP9 | AV1 |
 | --- | --- | --- | --- | --- | --- |
 | 160x120| 330 KB | 274 KB | 744 KB | 1.181 KB | 218 KB |
 | 360x240 | 516 KB | 346 KB | 1.536 KB | 1.197 KB | 320 KB |
