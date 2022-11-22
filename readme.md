@@ -19,9 +19,14 @@ You just need to deliver something with a user interface that enables these conv
 
 ## Comments
 
-All videos from exercise 1 are located inside the `videos` folder, organised in different folders depending on its codec (VP8, VP9, h265 & AV1), or if they are the originals. The collages are inside the `collages`folder.
+All videos from exercise 1 are located inside the `videos` folder, organised in different folders depending on its codec (VP8, VP9, h265 & AV1), or if they are the originals. The collages are inside the `collages`folder. Each collage has the next visualization:
 
-I created a GUI where you can write the path to the video (Ex. ./videos/originals/bbb_480x480.mp4) and choose the format you want to convert it selecting the corresponding button. The output file will be located at the main project folder, with the name "output.{extension}". The GUII looks like this:
+- **upper-left:** H265
+- **upper-right:** VP8
+- **lower-left:** VP9
+- **lower-right:** AV1
+
+I created a GUI where you can write the path to the video (Ex. ./videos/originals/bbb_480x480.mp4) and choose the format you want to convert it selecting the corresponding button. The output file will be located at the main project folder, with the name "output.{extension}". The GUI looks like this:
 <p align="center">
 <img src=https://user-images.githubusercontent.com/72571435/203330869-a35851ee-488f-4921-842f-cd7b379f0b83.png />
 </p>
@@ -34,6 +39,18 @@ I also included a script used for creating all collages. To execute it, `python3
 
 ## Observations from Exercise 1
 
+I got the next sizes on the files:
+
+| pixels | Original | H265 | VP8 | VP9 | AV1 |
+| --- | --- | --- | --- | --- | --- |
+| 160x120| 330 KB | 274 KB | 744 KB | 1.181 KB | 218 KB |
+| 360x240 | 516 KB | 346 KB | 1.536 KB | 1.197 KB | 320 KB |
+| 480x480| 865 KB | 483 KB | 1.555 KB | 1.516 KB | 512 KB |
+| 720x720 | 1.599 KB | 753 KB | 1.536 KB | 1.713 KB | 906 KB |
+
+We can notice how the H265 and AV1 codecs are the unique ones which really decrease the size of the original size. 
+
+Watching the different exported collages, we can see more differences between codecs for the smallest frame size of 160x120 pixels. 
 
 ## Util links
 
