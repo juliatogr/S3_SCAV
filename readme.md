@@ -21,7 +21,10 @@ You just need to deliver something with a user interface that enables these conv
 
 All videos from exercise 1 are located inside the `videos` folder, organised in different folders depending on its codec (VP8, VP9, h265 & AV1), or if they are the originals. The collages are inside the `collages`folder.
 
-I created a GUI where you can write the path to the video (Ex. ./videos/originals/bbb_480x480.mp4) and choose the format you want to convert it selecting the corresponding button. The output file will be located at the main project folder, with the name "output.{extension}". 
+I created a GUI where you can write the path to the video (Ex. ./videos/originals/bbb_480x480.mp4) and choose the format you want to convert it selecting the corresponding button. The output file will be located at the main project folder, with the name "output.{extension}". The GUII looks like this:
+<p align="center">
+<img src=https://user-images.githubusercontent.com/72571435/203330869-a35851ee-488f-4921-842f-cd7b379f0b83.png width="120" height="120" />
+</p>
 
 Finally, if you want to quit the application, you can just press the "Quit" button.
 
