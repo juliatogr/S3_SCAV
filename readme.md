@@ -50,7 +50,7 @@ I got the next sizes on the files:
 
 We can notice how the H265 and AV1 codecs are the unique ones which really decrease the size of the original size. 
 
-Watching the different exported collages, we can see more differences between codecs for the smallest resolution of 160x120 pixels. 
+Watching the different exported collages, we can see more differences between codecs for the smallest resolution of 160x120 pixels. We can appreciate that the quality of the codec AV1 looks better than the H265 one and that VP9 also improves with respect to VP8. Betwwn VP9 and AV1 there is low difference but, since AV1 occupies very less memory than VP9, AV1 is definitely the best codec here.
 
 ## Util links
 
